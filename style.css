@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #E0DDAA;
+}
+.toolbox-cont{
+    height: 5rem;
+    background-color: #141E27;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width:100vw;
+  top:0%;
+}
+.toolbox-priority-cont{
+    height:3rem;
+    background-color: #EEEDDE;
+    width:18rem;
+    margin-left:5rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.action-btn-cont{
+    background-color: #EEEDDE;
+    height:3rem;
+    width: 10rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.color{
+    height:1.5rem;
+    width:3rem;
+}
+.lightpink{
+    background-color:lightpink;
+}
+.green{
+    background-color:lightgreen;
+}
+.black{
+    background-color:black;
+}
+.blue{
+    background-color:lightblue;
+}
+.add-btn{
+    font-size: 1.5rem;
+}
+.remove-btn{
+    font-size: 1.5rem;
+}
+
+.modal-cont{
+    position:absolute;
+    top: 28vh;
+    left: 25vw;
+    background-color: #EEEDDE;
+    height:50vh;
+    width:50vw;
+    display: none;
+    /* margin-left: 20rem;
+    margin-top: 7rem; */
+}
+.textArea{
+    resize: none;
+    outline:none;
+    border:none;
+    background-color:#EEEDDE;
+    height:100%;
+    width:75%;
+    padding:2rem;
+    font-size: 2rem;
+    border-right: 2px solid #141E27;
+}
+
+.active{
+    border:5px solid #E0DDAA;
+}
+.priority-color-cont{
+  height:100%;
+  width:25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.priority-color{
+    height:3rem;
+    width:5rem;
+}
+
+.main-cont{
+  margin-top: 7rem;
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.ticket-cont{
+    height:10rem;
+    width:15rem;
+    background-color:#EEEDDE;
+}
+.ticket-color{
+  height:1rem;
+}
+.ticket-id{
+  height:1.5rem;
+  background-color:#EEEDDE;
+  color: #141E27;
+  margin-left: 0.3rem;
+  margin-top: 0.3rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.task-area{
+  height:5.7rem;
+  padding:5px;
+  font-size:1.25rem;
+  overflow: auto;
+  outline: none;
+  word-break: break-all;
+}
+
+.lock-unlock{
+    font-size: 1.5rem;
+    margin-left: 13.5rem;
+   
+}
